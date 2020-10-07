@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Homework 7</title>
+</head>
+<body>
+<form action="/action.php" method="post">
+    <fieldset>
+    <legend><h2>Отправка данных</h2></legend>
+        <input type="text" name="name" placeholder="Ваше имя" maxlength="15" required><label><b><font color="red">*</font></b></label>
+        <p><input type="tel" name="tel" placeholder="Номер телефона" maxlength="15" required><label><b><font color="red">*</font></b></label></p>
+        <p><input type="email" name="email" placeholder="E-Mail" maxlength="15"></p>
+        <p><textarea name="message" rows="20" cols="30" maxlength="60"></textarea></p>
+        <p><input type="date" name="date" max="2019-10-13"></p>
+        <p>Поля, отмеченные *, обязательны к заполнению</p>
+        <p><button>Отправить</button></p>
+    </fieldset>
+</form>
+
+</body>
+</html>

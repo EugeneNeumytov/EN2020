@@ -1,0 +1,25 @@
+*{
+    margin-bottom: 10px;
+    background-color: antiquewhite;
+}
+
+h1{
+    color: indigo;
+}
+
+.boxing h2{
+    color: gray;
+}
+
+.boxing p{
+    font-size: 14px;
+}
+
+.red_color h2{
+    color: red;
+}
+
+.green_color p{
+    font-size: 16px;
+    color: green;
+}

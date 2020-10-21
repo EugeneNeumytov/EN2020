@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+}
+.fon{
+    width: 100%;
+    background: url("california.jpg") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 40px 0;
+    color: magenta;
+}
+.fon h1{
+    font-family: 'robotobold';
+    font-size: 35px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.fon p{
+    font-family: 'robotoregular';
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+}
+ul.list{
+    list-style-image: url("beer.png");
+}

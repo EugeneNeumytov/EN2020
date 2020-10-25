@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Position</title>
+</head>
+<style>
+    .main{
+        position: relative;
+    }
+    .box{
+        background: lightgray;
+        border: black solid 2px;
+        text-align: center;
+        box-sizing: border-box;
+        font-size: 20px;
+    }
+    .layer1{
+        width: 300px;
+        height: 150px;
+    }
+    .layer2{
+        width: 600px;
+        height: 150px;
+        position: relative;
+        left: 20px;
+        top: 40px;
+        z-index: 1;
+    }
+    .layer3{
+        width: 300px;
+        height: 150px;
+        position: absolute;
+        left: -20px;
+        top: 125px;
+    }
+    .layer4{
+        width: 400px;
+        height: 300px;
+        position: absolute;
+        left: 190px;
+        top: 140px;
+    }
+    .layer5{
+        width: 300px;
+        height: 150px;
+        position: fixed;
+        background: black;
+        top: 295px;
+        left: 700px;
+        text-align: center;
+        color: white;
+    }
+    .layer6{
+        width: 300px;
+        height: 150px;
+        position: relative;
+        top: 185px;
+        z-index: 2;
+    }
+    .layer7{
+        width: 300px;
+        height: 150px;
+        position: absolute;
+        top: 70px;
+        left: 50px;
+    }
+    .square{
+        position: relative;
+        top: 200px;
+        left: -5px;
+    }
+    .square1{
+        width: 200px;
+        height: 200px;
+        background: blue;
+        position: absolute;
+    }
+    .square2{
+        width: 200px;
+        height: 200px;
+        background: red;
+        position: absolute;
+        top: 30px;
+        left: 30px;
+    }
+    .square3{
+        width: 200px;
+        height: 200px;
+        background: aqua;
+        position: absolute;
+        top: 60px;
+        left: 60px;
+    }
+</style>
+<body>
+<div class="main">
+    <div class="layer1 box">
+        <p>Default position is static</p>
+    </div>
+    <div class="layer2 box">
+        <p>Relative</p>
+        <div class="layer3 box"><p>Absolute</p></div>
+        <div class="layer4 box"><p>Absolute</p></div>
+        <div class="layer5"><p>Fixed</p></div>
+    </div>
+
+    <div class="layer6 box">
+        <p>Relative</p>
+        <div class="layer7 box"><p>Absolute</p></div>
+    </div>
+
+    <div class="square">
+        <div class="square1"></div>
+        <div class="square2"></div>
+        <div class="square3"></div>
+    </div>
+</div>
+
+</body>
+</html>

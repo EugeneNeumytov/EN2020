@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Menu</title>
+    <link href="vendor/fontawesome/css/all.min.css" type="text/css" rel="stylesheet">
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .container{
+        width: 1170px;
+        margin: 0 auto;
+    }
+    .logo{
+        width: 20%;
+    }
+    .fl{
+        float: left;
+    }
+    .fr{
+        float: right;
+    }
+    .clear{
+        clear: both;
+    }
+    img{
+        max-width: 100%;
+        width: auto;
+        height: auto;
+    }
+    .header{
+        margin-top: 15px;
+    }
+    .clock_work{
+        width: 25%;
+        text-align: center;
+        padding-top: 25px;
+    }
+    .phone_main i,
+    .adress_main i,
+    .clock_work i{
+        font-size: 19px;
+        color: #2a27d5;
+        padding-right: 3px;
+    }
+    .adress_main,
+    .phone_main{
+        width: 27%;
+        padding-top: 25px;
+    }
+    .phone_main a{
+        color: #333;
+        text-decoration: none;
+    }
+    .phone_main a:hover{
+        color: #168bd4;
+    }
+    .nav-menu{
+        width: 100%;
+        background: #2a27d5;
+        margin-top: 15px;
+    }
+    ul.menu-main > li.item-menu{
+        list-style: none;
+        float: left;
+    }
+    ul.menu-main > li.item-menu>a{
+        text-decoration: none;
+        color: #fff;
+        font-size: 14px;
+        padding: 20px 15px;
+        display: block;
+    }
+    ul.menu-main > li.item-menu>a:hover{
+        color: #e5dfdf;
+    }
+
+</style>
+<body>
+<main class="main">
+    <div class="for_page">
+        <div class="page">
+            <header class="header">
+                <div class="container">
+                    <div class="logo fl">
+                        <img class="logo-site" src="logo.jpg" alt="Логотип |https://site.com.ua" title="Логотип">
+                    </div>
+                    <div class="clock_work fl">
+                        <i class="fas fa-clock"></i>9:00-18:00
+                    </div>
+                    <div class="phone_main fl">
+                        <i class="fas fa-phone-square-alt"></i>
+                        <a href="tel:+380970000000">+3809700000000</a>
+                    </div>
+                    <div class="adress_main fl">
+                        <i class="fas fa-map-marked"></i>
+                        г. Киев, ул. Крещатик, 26 оф. 48
+                    </div>
+                    <div class="clear"></div>
+                </div>
+
+                <nav class="nav-menu">
+                    <div class="container">
+                        <ul class="menu-main">
+                            <li class="item-menu"><a href="item-link-active">Главная</a></li>
+                            <li class="item-menu"><a href="item-link">О компании</a></li>
+                            <li class="item-menu"><a href="item-link">Каталог</a></li>
+                            <li class="item-menu"><a href="item-link">Новости</a></li>
+                            <li class="item-menu"><a href="item-link">Контакты</a></li>
+                        </ul>
+                        <div class="clear"></div>
+                    </div>
+                </nav>
+            </header>
+        </div>
+    </div>
+</main>
+</body>
+</html>

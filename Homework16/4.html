@@ -5,25 +5,32 @@
     <title>4</title>
 </head>
 <style>
-    div{
-        width: 300px;
-        height: 150px;
-        margin-top: 20px;
+    .main{
+        width: 1170px;
+        margin: 0 auto;
+        border: 1px dotted black;
+    }
+    .box{
+        width: 700px;
+        height: 350px;
+        margin: 40px;
         border: 1px solid black;
     }
     .rectangle{
         background: radial-gradient(circle, white, dodgerblue 44%);
     }
     .rectangle1{
-        background: radial-gradient(circle at 30px 30px,white, dodgerblue 50px);
+        background: radial-gradient(circle at 60px 60px,white, dodgerblue 100px);
     }
     .rectangle2{
         background: radial-gradient(circle, black 3%, white 14%, white 20%, green 24%);
     }
 </style>
 <body>
-<div class="rectangle"></div>
-<div class="rectangle1"></div>
-<div class="rectangle2"></div>
+<div class="main">
+    <div class="box rectangle"></div>
+    <div class="box rectangle1"></div>
+    <div class="box rectangle2"></div>
+</div>
 </body>
 </html>

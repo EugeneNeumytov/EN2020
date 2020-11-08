@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="abeee517-7817-4822-903f-e0ee28e8c565" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.html" beforeDir="false" afterPath="$PROJECT_DIR$/1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2.html" beforeDir="false" afterPath="$PROJECT_DIR$/2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3.html" beforeDir="false" afterPath="$PROJECT_DIR$/3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4.html" beforeDir="false" afterPath="$PROJECT_DIR$/4.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,11 +44,34 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1604743117785</updated>
-      <workItem from="1604743118838" duration="11440000" />
+      <workItem from="1604743118838" duration="11682000" />
+      <workItem from="1604831186753" duration="3871000" />
     </task>
+    <task id="LOCAL-00001" summary="Homework16">
+      <created>1604760897663</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1604760897663</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Homework16" />
+    <option name="LAST_COMMIT_MESSAGE" value="Homework16" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="410" y="92" key="CommitChangelistDialog2" timestamp="1604760896252">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="410" y="92" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1604760896252" />
+    <state x="377" y="256" key="Vcs.Push.Dialog.v2" timestamp="1604760900951">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="377" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1604760900951" />
   </component>
 </project>

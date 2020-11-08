@@ -5,29 +5,37 @@
     <title>2</title>
 </head>
 <style>
-
-    div{
-        width: 150px;
-        height: 150px;
-        border: 1px solid black;
+    .main{
+        width: 1400px;
         margin: 0 auto;
-        font-size: 12px;
+        border: 1px dotted black;
     }
     .box{
-        margin-bottom: 50px;
-        box-shadow: 10px 15px gray;
+        width: 300px;
+        height: 300px;
+        border: 1px solid black;
+        margin: 0 auto;
+        font-size: 27px;
     }
-    .box1{
-        margin-bottom: 50px;
-        box-shadow: 10px 15px 5px gray;
+    .shad{
+        margin-top: 50px;
+        box-shadow: 35px 40px gray;
     }
-    .box2{
-        box-shadow: inset -5px -5px 5px red, inset 5px 5px 5px blue;
+    .shad1{
+        margin-top: 100px;
+        box-shadow: 35px 40px 10px gray;
+    }
+    .shad2{
+        margin-top: 100px;
+        box-shadow: inset -10px -10px 15px red, inset 10px 10px 15px blue;
+        margin-bottom: 50px;
     }
 </style>
 <body>
-    <div class="box">Блок с тенью</div>
-    <div class="box1">Блок с тенью + размытие</div>
-    <div class="box2">Две внутренние тени</div>
+<div class="main">
+    <div class="box shad">Блок с тенью</div>
+    <div class="box shad1">Блок с тенью + размытие</div>
+    <div class="box shad2">Две внутренние тени</div>
+</div>
 </body>
 </html>

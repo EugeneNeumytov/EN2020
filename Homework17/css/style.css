@@ -70,9 +70,6 @@ img{
     width: auto;
     height: auto;
 }
-.bord >.image {
-    overflow: hidden;
-}
 .image{
     max-height: 200px;
     min-height: 210px;
@@ -84,7 +81,15 @@ img{
     transition: all 1s ease-out;
 }
 .image img:hover{
-    transform: scale(2, 2);
+    transform: scale(1.5, 1.5);
+}
+.box div:nth-child(2) +.item .image img:hover{
+    transform: none;
+    border-radius: 100%;
+}
+.box div:nth-child(5) +.item .image img:hover{
+    transform: none;
+    border-radius: 100%;
 }
 .item h2{
     margin: 13px 0;

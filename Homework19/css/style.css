@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body,html{
+    height: 100%;
+    position: relative;
+}
+.for_page{
+    position: relative;
+    min-height: 100%;
+}
+.page{
+    padding-bottom: 60px;
+}
+.footer{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: indigo;
+    height: 60px;
+}
+.footer p{
+    color: whitesmoke;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 22px;
+}
+.header{
+    background: #f1f1de;
+}
+.wrapper_header{
+    height: 100px;
+}
+h1{
+    font-size: 70px;
+    text-align: center;
+    color: darkgreen;
+}
+.menu{
+    background: blue;
+}
+.menu ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+.menu ul li{
+    list-style: none;
+}
+.menu ul li a{
+    padding: 15px 10px;
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    display: block;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+.sidebar{
+    background: lightgreen;
+    width: 300px;
+}
+.content{
+    width: 870px;
+    background: lightblue;
+}
+.wrapper_content{
+    display: flex;
+}
+.box{
+    width: 600px;
+    margin: 20px auto;
+}
+.box img{
+    max-width: 100%;
+    width: auto;
+    height: auto;
+}
+.box h2{
+    text-align: center;
+    margin-bottom: 10px;
+    padding-bottom: 10px;;
+    border-bottom: 3px solid black;
+}
+.box h3{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.text{
+    font-size: 18px;
+    max-height: 60px;
+    overflow: hidden;
+}
+.text:hover{
+    max-height: 100%;
+    cursor: pointer;
+}

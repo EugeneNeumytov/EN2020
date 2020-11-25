@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+}
+body{
+    font-size: 14px;
+    color: #000;
+    font-family: 'vidaloka_regular';
+}
+.header{
+    z-index: 2;
+    position: relative;
+    padding-top: 60px;
+}
+.nav-menu .navbar-brand,
+.nav-menu .navbar-toggler{
+    display: none;
+}
+.nav-menu ul li{
+    margin-right: 34px;
+}
+.nav-menu ul li:last-child{
+    margin-right: 0;
+}
+.nav-menu ul li a{
+    transition: 0.3s;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-family: 'vidaloka_regular';
+}
+.nav-menu ul li.active a,
+.nav-menu ul li a:hover{
+    text-decoration: none;
+    padding-bottom: 35px;
+    color: #ffeb3b;
+    border-bottom: solid 2px #ffeb3b;;
+}
+.border-header{
+    border-bottom: solid 2px #929498;
+}
+.nav-menu{
+    position: relative;
+    top: 2px;
+}
+.banner-home{
+    position: relative;
+    left: 0;
+    top: -128px;
+    z-index: 1;
+    background: url("../image/main.jpg") no-repeat;
+    background-size: cover;
+    background-position: top center;
+    width: 100%;
+}
+#slider-banner{
+    padding-top: 400px;
+    padding-bottom: 120px;
+}
+.btn-search{
+    font-size: 0;
+    background: url("../image/lupa.png") no-repeat;
+    width: 37px;
+    height: 37px;
+    border: none;
+    outline: none;
+}
+.pole-search{
+    display: none;
+    outline: none;
+}
+.form-search{
+    position: relative;
+    padding-left: 20px;
+    padding-top: 8px;
+    top: 5px;
+}
+.form-search:before{
+    content: '';
+    position: absolute;
+    height: 30px;
+    background: #fff;
+    width: 1px;
+    left: 0;
+    top: 0;
+}
+#slider-banner .item h2{
+    font-size: 110px;
+    color: #fff;
+    font-family: 'back_to_black_demoregular';
+    text-align: center;
+    line-height: 1.4;
+}
+.text-slider{
+    font-size: 280px;
+    color: #fff;
+    font-family: 'back_to_black_demoregular';
+    text-align: center;
+}
+#slider-banner.owl-carousel .owl-nav .owl-prev{
+    background: url("../image/arrow_left.png") no-repeat;
+    width: 8px;
+    height: 13px;
+    outline: none;
+    position: absolute;
+    left: -190px;
+    top: 400px;
+}
+#slider-banner.owl-carousel .owl-nav .owl-next {
+    background: url("../image/arrow_right.png") no-repeat;
+    width: 8px;
+    height: 13px;
+    outline: none;
+    position: absolute;
+    right: -190px;
+    top: 400px;
+}
+

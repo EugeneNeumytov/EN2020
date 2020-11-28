@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <title>Bagdum</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="css/style.css" rel="stylesheet">
-    <link href="css/responsive.css" rel="stylesheet">
     <link href="bootstrap-4.0.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="bootstrap-4.0.0/dist/css/bootstrap-grid.min.css" rel="stylesheet">
     <link href="fonts/stylesheet.css" rel="stylesheet">
     <link href="fontawesome/css/all.min.css" type="text/css" rel="stylesheet">
     <link href="OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css" type="text/css" rel="stylesheet">
     <link href="OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css" type="text/css" rel="stylesheet">
+    <link href="css/style.css" type="text/css" rel="stylesheet">
+    <link href="css/responsive.css" type="text/css" rel="stylesheet">
 
 
     <script type="text/javascript" src="js/jquery-3.0.0.js"></script>
@@ -26,18 +26,20 @@
         <header class="header">
             <div class="container border-header">
                 <div class="row">
-                    <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12">
+                    <div class="col-xl-3 col-lg-3 col-md-12 col-sm-11">
                         <a href="/" class="logo"><img src="image/logo.png" alt="logo" title="logo"></a>
                     </div>
-                    <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12">
+                    <div class="col-xl-8 col-lg-8 col-md-11 col-sm-12">
                         <nav class="nav-menu">
                             <nav class="navbar-expand-sm">
-                                <a class="navbar-brand" href="#">Navbar</a>
+                                <div class="responsive-menu">
+                                    <a class="navbar-brand" href="#">Menu</a>
 
-                                <!-- Toggler/collapsibe Button -->
-                                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-                                    <span class="navbar-toggler-icon"></span>
-                                </button>
+                                    <!-- Toggler/collapsibe Button -->
+                                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                                        <i class="fas fa-bars"></i>
+                                    </button>
+                                </div>
                                 <div class="collapse navbar-collapse" id="collapsibleNavbar">
                                     <ul class="navbar-nav">
                                         <li class="item active">
@@ -63,7 +65,7 @@
                             </nav>
                         </nav>
                     </div>
-                    <div class="col-xl-1 col-lg-1 col-md-12 col-sm-12">
+                    <div class="col-xl-1 col-lg-1 col-md-1 col-sm-1">
                         <form class="form-search">
                             <input class="pole-search" type="search" name="search" placeholder="Поиск по сайту">
                             <input class="btn-search" type="submit" value="Поиск">
@@ -82,12 +84,12 @@
                             <div class="text-slider">Creative</div>
                         </div>
                         <div class="item">
-                            <h2>We Are2</h2>
-                            <div class="text-slider">Creative2</div>
+                            <h2>We Are</h2>
+                            <div class="text-slider">Creative</div>
                         </div>
                         <div class="item">
-                            <h2>We Are3</h2>
-                            <div class="text-slider">Creative3</div>
+                            <h2>We Are</h2>
+                            <div class="text-slider">Creative</div>
                         </div>
                     </div>
                 </div>

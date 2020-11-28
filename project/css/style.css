@@ -10,6 +10,11 @@ body{
     color: #000;
     font-family: 'vidaloka_regular';
 }
+img{
+    width: auto;
+    height: auto;
+    max-height: 100%;
+}
 .header{
     z-index: 2;
     position: relative;
@@ -37,7 +42,7 @@ body{
     text-decoration: none;
     padding-bottom: 35px;
     color: #ffeb3b;
-    border-bottom: solid 2px #ffeb3b;;
+    border-bottom: solid 2px #ffeb3b;
 }
 .border-header{
     border-bottom: solid 2px #929498;
@@ -47,9 +52,9 @@ body{
     top: 2px;
 }
 .banner-home{
-    position: relative;
+    position: absolute;
     left: 0;
-    top: -128px;
+    top: 0;
     z-index: 1;
     background: url("../image/main.jpg") no-repeat;
     background-size: cover;
@@ -58,7 +63,7 @@ body{
 }
 #slider-banner{
     padding-top: 400px;
-    padding-bottom: 120px;
+    padding-bottom: 171px;
 }
 .btn-search{
     font-size: 0;
@@ -94,11 +99,12 @@ body{
     text-align: center;
     line-height: 1.4;
 }
-.text-slider{
+#slider-banner .item .text-slider{
     font-size: 280px;
     color: #fff;
     font-family: 'back_to_black_demoregular';
     text-align: center;
+    margin-top: -50px;
 }
 #slider-banner.owl-carousel .owl-nav .owl-prev{
     background: url("../image/arrow_left.png") no-repeat;

@@ -7,6 +7,9 @@
         right: -90px;
         top: 400px;
     }
+    .icon-block2{
+        width: 115px;
+    }
 
 }
 @media(max-width: 991px) {
@@ -30,6 +33,21 @@
         right: -45px;
         top: 400px;
     }
+    .block2 {
+        padding-top: 830px;
+        padding-bottom: 0;
+    }
+    .block2 h1{
+        font-size: 30px;
+        line-height: 48px;
+        margin-bottom: 70px;
+    }
+    .box-block2{
+        margin-bottom: 70px;
+    }
+    .icon-block2{
+        width: 90px;
+    }
 }
 @media(max-width: 767px){
     .nav-menu ul li{
@@ -45,15 +63,15 @@
         font-size: 140px;
         margin-top: -30px;
     }
-    .form-search{
-       top: -32px;
+    .border-header{
+        border: inherit;
     }
-    .nav-menu ul li.active a,
-    .nav-menu ul li a:hover {
-        padding-bottom: 15px;
+    .form-search{
+        top: -100px;
+        left: 455px;
     }
     .nav-menu{
-        top: 47px;
+        top: 10px;
     }
     .logo{
         display: block;
@@ -61,6 +79,20 @@
     .logo img{
         display: block;
         margin: 0 auto;
+    }
+    .icon-block2{
+        width: 157px;
+    }
+    .block2{
+        padding-top: 640px;
+        padding-bottom: 10px;
+    }
+    .block2 h1{
+        font-size: 24px;
+        margin-bottom: 50px;
+    }
+    .box-block2{
+        margin-bottom: 50px;
     }
 }
 @media(max-width: 575px) {
@@ -70,9 +102,6 @@
     }
     .border-header{
         border: inherit;
-    }
-    .form-search{
-        top: -60px;
     }
     #slider-banner .item h2{
         font-size: 50px;
@@ -92,6 +121,7 @@
     }
     .form-search{
         top: 5px;
+        left: 0;
     }
     .nav-menu .responsive-menu{
         display: flex;
@@ -109,10 +139,28 @@
     .nav-menu .navbar-expand-sm .navbar-toggler i:hover{
         color: #ffeb3b;
     }
+    .nav-menu ul li.active a,
+    .nav-menu ul li a:hover{
+        padding-bottom: 15px;
+    }
     #slider-banner.owl-carousel .owl-nav .owl-prev{
         display: none;
     }
     #slider-banner.owl-carousel .owl-nav .owl-next {
         display: none;
+    }
+    .block2{
+        padding-top: 550px;
+    }
+    .block2 h1{
+        font-size: 20px;
+        margin-bottom: 50px;
+        line-height: 40px;
+    }
+    .box-block2{
+        margin-bottom: 40px;
+    }
+    .icon-block2{
+        width: 85px;
     }
 }

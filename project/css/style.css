@@ -261,7 +261,7 @@ img{
     display: flex;
 }
 .creative-photo{
-    width: 1903px;
+    max-width: 100%;
     margin: 0 auto;
 }
 .for-mask{
@@ -485,10 +485,10 @@ img{
     margin-bottom: 65px;
 }
 .form-email{
-    /*position: relative;
-    left: 100px;
-    bottom: 100px;*/
     text-align: center;
+}
+.form-email .grey-box-btn:hover{
+    cursor: pointer;
 }
 .grey-box-email{
     padding: 20px 370px 20px 30px;
@@ -498,6 +498,7 @@ img{
     border: none;
     font-weight: 500;
     margin-right: 20px;
+    color:white;
 }
 .grey-box-email::-webkit-input-placeholder{
     color:white;
@@ -544,5 +545,9 @@ img{
 .footer-icons a{
     color: white;
     margin:0 15px;
+    transition: .3s;
+}
+.footer-icons a:hover{
+    color: #ffeb3b;
 }
 

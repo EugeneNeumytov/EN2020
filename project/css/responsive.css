@@ -1,40 +1,104 @@
 @media(max-width: 1199px){
+    .page{
+        padding-bottom: 251px;
+    }
     #slider-banner.owl-carousel .owl-nav .owl-prev{
-        left: -90px;
-        top: 400px;
+        left: -40px;
+        bottom: 400px;
     }
     #slider-banner.owl-carousel .owl-nav .owl-next {
-        right: -90px;
-        top: 400px;
+        right: -40px;
+        bottom: 400px;
+    }
+    #slider-banner{
+        padding-top: 215px;
+        padding-bottom: 0;
+    }
+    #slider-banner .item h2{
+        font-size: 100px;
+    }
+    #slider-banner .item .text-slider{
+        font-size: 250px;
+        margin-top: -50px;
     }
     .icon-block2{
         width: 115px;
     }
-
+    .block2{
+        padding-top: 650px;
+        padding-bottom: 0;
+    }
+    .creative-portfolio{
+        padding: 80px 0;
+    }
+    .photo-mask{
+        padding-top: 40px;
+    }
+    .mask-title {
+        margin-left: 28px;
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .mask-text {
+        margin-left: 28px;
+        font-size: 12px;
+        margin-bottom: 50px;
+    }
+    .mask-btn {
+        margin-left: 28px;
+        padding: 12px 40px;
+        font-size: 14px;
+    }
+    .creative-service{
+        padding: 70px 0;
+    }
+    .our-team{
+        padding: 80px 0;
+    }
+    .grey-box{
+        padding: 80px 0;
+    }
+    .footer{
+        padding: 40px 0;
+    }
+    .footer-logo{
+        margin-bottom: 30px;
+    }
+    .footer-text{
+        width: 26%;
+        margin-bottom: 40px;
+    }
+    .footer-icons{
+        width: 19%;
+    }
 }
 @media(max-width: 991px) {
     .header{
         padding-top: 40px;
     }
+    .page {
+        padding-bottom: 232px;
+    }
     #slider-banner{
-        padding-top: 315px;
+        padding-top: 240px;
     }
     #slider-banner .item h2{
-        font-size: 90px;
+        font-size: 85px;
     }
     #slider-banner .item .text-slider{
-        font-size: 210px;
+        font-size: 195px;
+        margin-top: -40px;
     }
     #slider-banner.owl-carousel .owl-nav .owl-prev{
         left: -45px;
-        top: 400px;
+        top: 360px;
     }
     #slider-banner.owl-carousel .owl-nav .owl-next {
         right: -45px;
-        top: 400px;
+        top: 360px;
     }
     .block2 {
-        padding-top: 830px;
+        padding-top: 550px;
         padding-bottom: 0;
     }
     .block2 h1{
@@ -48,13 +112,133 @@
     .icon-block2{
         width: 90px;
     }
+    .client-text{
+        width: 780px;
+    }
+    .black-box{
+        margin-bottom: 20px;
+    }
+    .num-black-box{
+        font-size: 50px;
+        margin-top: 40px;
+    }
+    .text-black-box{
+        font-size: 18px;
+        margin-top: 40px;
+    }
+    .creative-portfolio {
+        padding: 40px 0;
+    }
+    .creative-portfolio h2{
+        font-size: 34px;
+        margin-bottom: 25px;
+    }
+    .creative-portfolio .creative-text{
+        line-height: 24px;
+        margin-bottom: 60px;
+    }
+    .photo-mask{
+        padding-top: 25px;
+    }
+    .mask-title {
+        margin-left: 28px;
+        font-size: 18px;
+        margin-bottom: 12px;
+    }
+    .mask-text{
+        margin-bottom: 30px;
+    }
+    .mask-btn {
+        padding: 10px 35px;
+        font-size: 12px;
+    }
+    .creative-service{
+        padding: 40px 0;
+    }
+    .service-box {
+        width: 100%;
+        height: 93%;
+        padding-top: 35px;
+        margin-bottom: 30px;
+    }
+    .service-title-box{
+        margin-bottom: 35px;
+    }
+    .service-text-box{
+        margin-bottom: 35px;
+    }
+    .service-link{
+        margin-bottom: 45px;
+    }
+    .our-client {
+        padding-top: 60px;
+        padding-bottom: 140px;
+    }
+    .our-team {
+        padding: 50px 0;
+    }
+    .our-team h2 {
+        font-size: 44px;
+        margin-bottom: 45px;
+    }
+    .our-team-text{
+        margin-bottom: 60px;
+    }
+    .team-man-box{
+        padding: 20px 0;
+    }
+    .team-man-name{
+        margin-bottom: 20px;
+    }
+    .team-man-description{
+        font-size: 12px;
+        width: 100%;
+    }
+    .grey-box {
+        padding: 60px 0;
+    }
+    .grey-box h2 {
+        font-size: 44px;
+        margin-bottom: 35px;
+    }
+    .grey-box-text{
+        width: 400px;
+        margin-bottom: 50px;
+    }
+    .grey-box-email {
+        padding: 15px 300px 15px 25px;
+    }
+    .grey-box-btn {
+        padding: 15px 45px;
+    }
+    .footer-logo{
+        margin-bottom: 25px;
+    }
+    .footer-text{
+        width: 35%;
+        margin-bottom: 35px;
+    }
+    .footer-icons{
+        width: 25%;
+    }
 }
 @media(max-width: 767px){
+    #slider-banner.owl-carousel .owl-nav .owl-prev{
+        left: -45px;
+        top: 250px;
+    }
+    #slider-banner.owl-carousel .owl-nav .owl-next {
+        right: -45px;
+        top: 250px;
+    }
     .nav-menu ul li{
         margin-right: 22px;
     }
     .header{
         padding-top: 35px;
+    }
+    #slider-banner{
+        padding-top: 180px;
     }
     #slider-banner .item h2{
         font-size: 56px;
@@ -84,7 +268,7 @@
         width: 157px;
     }
     .block2{
-        padding-top: 640px;
+        padding-top: 310px;
         padding-bottom: 10px;
     }
     .block2 h1{

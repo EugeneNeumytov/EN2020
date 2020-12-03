@@ -77,7 +77,7 @@
         padding-top: 40px;
     }
     .page {
-        padding-bottom: 232px;
+        padding-bottom: 230px;
     }
     #slider-banner{
         padding-top: 240px;
@@ -223,39 +223,69 @@
     }
 }
 @media(max-width: 767px){
+    .page {
+        padding-bottom: 200px;
+    }
     #slider-banner.owl-carousel .owl-nav .owl-prev{
-        left: -45px;
+        left: -15px;
         top: 250px;
     }
     #slider-banner.owl-carousel .owl-nav .owl-next {
-        right: -45px;
+        right: -15px;
         top: 250px;
     }
-    .nav-menu ul li{
-        margin-right: 22px;
+    .nav-menu .navbar-brand,
+    .nav-menu .navbar-toggler{
+        display: inherit;
     }
     .header{
         padding-top: 35px;
     }
+    .nav-menu .navbar-toggler, .nav-menu .navbar-brand{
+        display: block;
+    }
+    .nav-menu{
+        margin: 15px 0;
+        background: #929498;
+        padding: 8px;
+        top: 2px;
+    }
+    .form-search{
+        top: 5px;
+        left: 0;
+    }
+    .nav-menu .responsive-menu{
+        display: flex;
+        justify-content: space-between;
+    }
+    .nav-menu .navbar-expand-md .navbar-brand{
+        color: #000;
+    }
+    .nav-menu .navbar-expand-md .navbar-toggler{
+        outline: none;
+    }
+    .nav-menu .navbar-expand-md .navbar-toggler i{
+        transition: .3s;
+    }
+    .nav-menu .navbar-expand-md .navbar-toggler i:hover{
+        color: #ffeb3b;
+    }
+    .nav-menu ul li.active a,
+    .nav-menu ul li a:hover{
+        padding-bottom: 15px;
+    }
     #slider-banner{
-        padding-top: 180px;
+        padding-top: 225px;
     }
     #slider-banner .item h2{
-        font-size: 56px;
+        font-size: 50px;
     }
     #slider-banner .item .text-slider {
-        font-size: 140px;
-        margin-top: -30px;
+        font-size: 120px;
+        margin-top: -25px;
     }
     .border-header{
         border: inherit;
-    }
-    .form-search{
-        top: -100px;
-        left: 455px;
-    }
-    .nav-menu{
-        top: 10px;
     }
     .logo{
         display: block;
@@ -278,8 +308,126 @@
     .box-block2{
         margin-bottom: 50px;
     }
+    #black-block.black-block{
+        padding: 60px 0;
+    }
+    .creative-portfolio .nav-tabs .nav-link {
+        padding: 8px 30px;
+        font-weight: 400;
+        transition: .3s;
+        font-size: 13px;
+    }
+    .creative-photo{
+        flex-direction: column;
+    }
+    .creative-photo .vert-photo{
+        width: 50%;
+        margin: 0 auto;
+    }
+    .photo-mask {
+        padding-top: 10px;
+    }
+    .mask-title {
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+    .mask-text {
+        margin-bottom: 20px;
+        font-size: 11px;
+    }
+    .mask-btn {
+        padding: 8px 30px;
+        font-size: 12px;
+    }
+    .creative-service {
+        padding: 30px 0;
+    }
+    .creative-service h2 {
+        font-size: 34px;
+        margin-bottom: 35px;
+    }
+    .service-text {
+        font-size: 14px;
+        width: 90%;
+        margin-bottom: 70px;
+    }
+    .our-client h2 {
+        font-size: 34px;
+        margin-bottom: 35px;
+    }
+    .client-text {
+        width: 100%;
+        text-align: left;
+        font-size: 14px;
+        line-height: 24px;
+        margin-bottom: 50px;
+    }
+    .our-team h2 {
+        font-size: 40px;
+        margin-bottom: 30px;
+    }
+    .our-team {
+        padding: 35px 0;
+    }
+    .our-team-text {
+        margin-bottom: 40px;
+        font-size: 15px;
+    }
+    .team-man{
+        width: 50%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    .team-man-box {
+        padding: 15px 0;
+    }
+    .team-man-name {
+        margin-bottom: 10px;
+    }
+    .team-man-description {
+        width: 80%;
+        padding-bottom: 15px;
+        margin-bottom: 10px;
+    }
+    .grey-box {
+        padding: 40px 0;
+    }
+    .grey-box h2 {
+        font-size: 38px;
+        margin-bottom: 25px;
+    }
+    .grey-box-text {
+        font-size: 15px;
+        margin-bottom: 35px;
+    }
+    .grey-box-email {
+        padding: 10px 200px 10px 15px;
+        font-size: 14px;
+    }
+    .grey-box-btn {
+        padding: 10px 35px;
+        font-size: 12px;
+    }
+    .footer {
+        padding: 30px 0;
+    }
+    .footer-logo {
+        margin-bottom: 20px;
+        width: 25%;
+    }
+    .footer-text {
+        width: 48%;
+        margin-bottom: 25px;
+    }
+    .footer-icons {
+        width: 34%;
+        font-size: 25px;
+    }
 }
 @media(max-width: 575px) {
+    .page {
+        padding-bottom: 191px;
+    }
     .nav-menu .navbar-brand,
     .nav-menu .navbar-toggler{
         display: inherit;
@@ -287,12 +435,16 @@
     .border-header{
         border: inherit;
     }
+    #slider-banner{
+        padding-top: 220px;
+        padding-bottom: 50px;
+    }
     #slider-banner .item h2{
-        font-size: 50px;
+        font-size: 40px;
     }
     #slider-banner .item .text-slider {
-        font-size: 120px;
-        margin-top: -30px;
+        font-size: 100px;
+        margin-top: -22px;
     }
     .nav-menu .navbar-toggler, .nav-menu .navbar-brand{
         display: block;
@@ -311,16 +463,16 @@
         display: flex;
         justify-content: space-between;
     }
-    .nav-menu .navbar-expand-sm .navbar-brand{
+    .nav-menu .navbar-expand-md .navbar-brand{
         color: #000;
     }
-    .nav-menu .navbar-expand-sm .navbar-toggler{
+    .nav-menu .navbar-expand-md .navbar-toggler{
         outline: none;
     }
-    .nav-menu .navbar-expand-sm .navbar-toggler i{
+    .nav-menu .navbar-expand-md .navbar-toggler i{
         transition: .3s;
     }
-    .nav-menu .navbar-expand-sm .navbar-toggler i:hover{
+    .nav-menu .navbar-expand-md .navbar-toggler i:hover{
         color: #ffeb3b;
     }
     .nav-menu ul li.active a,
@@ -328,23 +480,135 @@
         padding-bottom: 15px;
     }
     #slider-banner.owl-carousel .owl-nav .owl-prev{
-        display: none;
+        left: 40px;
+        top: 250px;
     }
     #slider-banner.owl-carousel .owl-nav .owl-next {
-        display: none;
+        right: 40px;
+        top: 250px;
     }
     .block2{
-        padding-top: 550px;
+        padding-top: 270px;
     }
-    .block2 h1{
-        font-size: 20px;
-        margin-bottom: 50px;
-        line-height: 40px;
+    .block2 h1 {
+        font-size: 16px;
+        margin-bottom: 35px;
+        line-height: 30px;
     }
     .box-block2{
-        margin-bottom: 40px;
+        margin-bottom: 30px;
     }
     .icon-block2{
-        width: 85px;
+        width: 60px;
+    }
+    .num-black-box {
+        font-size: 40px;
+        margin-top: 30px;
+    }
+    .text-black-box {
+        font-size: 16px;
+        margin-top: 30px;
+    }
+    .creative-portfolio {
+        padding: 20px 0;
+    }
+    .creative-portfolio h2 {
+        font-size: 32px;
+        margin-bottom: 20px;
+    }
+    .creative-portfolio .creative-text {
+        font-size: 14px;
+        line-height: 22px;
+        margin-bottom: 40px;
+    }
+    .creative-portfolio .nav-tabs {
+        margin-bottom: 60px;
+    }
+    .creative-portfolio .nav-tabs .nav-link {
+        padding: 7px 25px;
+        font-size: 11px;
+        border: 1px solid #ffeb3b;
+    }
+    .hor-photo-1, .hor-photo-2 {
+        flex-direction: column;
+    }
+    .creative-photo .hor-photo{
+        width: 50%;
+        margin: 0 auto;
+    }
+    .creative-photo .for-mask{
+        margin-bottom: 20px;
+    }
+    .mask-text {
+        margin-bottom: 12px;
+    }
+    .creative-service {
+        padding: 20px 0;
+    }
+    .creative-service h2 {
+        font-size: 32px;
+        margin-bottom: 20px;
+    }
+    .service-text{
+        margin-bottom: 40px;
+    }
+    .service-box{
+        width: 80%;
+        height: 90%;
+        margin: 0 auto;
+    }
+    .our-client {
+        padding-top: 40px;
+        padding-bottom: 110px;
+    }
+    .our-client h2 {
+        font-size: 32px;
+        margin-bottom: 25px;
+    }
+    .client-text {
+        width: 96%;
+        font-size: 13px;
+        line-height: 20px;
+        margin-bottom: 35px;
+    }
+    .our-team h2 {
+        font-size: 36px;
+        margin-bottom: 25px;
+    }
+    .our-team-text {
+        margin-bottom: 30px;
+        font-size: 14px;
+    }
+    .grey-box {
+        padding: 30px 0;
+    }
+    .grey-box h2 {
+        font-size: 32px;
+        margin-bottom: 20px;
+    }
+    .grey-box-text {
+        font-size: 14px;
+        margin-bottom: 25px;
+        width: 70%;
+    }
+    .grey-box-email {
+        padding: 10px 150px 10px 15px;
+        font-size: 12px;
+    }
+    .grey-box-btn {
+        padding: 10px 30px;
+    }
+    .footer-logo {
+        margin-bottom: 20px;
+        width: 30%;
+    }
+    .footer-text {
+        width: 50%;
+        margin-bottom: 20px;
+        font-size: 13px;
+    }
+    .footer-icons {
+        width: 35%;
+        font-size: 22px;
     }
 }

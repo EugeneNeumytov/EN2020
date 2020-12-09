@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Homework23-1</title>
+</head>
+<style>
+    .form_box{
+        background: violet;
+        border: 1px solid red;
+        border-radius: 10%;
+        width: 200px;
+        height: 300px;
+    }
+    .window{
+        padding: 100px 0;
+        max-width: 180px;
+        margin: 0 auto;
+    }
+    .window input{
+        margin-bottom: 10px;
+    }
+    .btn{
+        width: 100px;
+        margin: 0 auto;
+        display: block;
+    }
+    .name{
+
+    }
+</style>
+<body>
+<script>
+    let a = prompt('Угадайте число');
+    if(a==10){
+        alert('Верно')
+    }else{
+        alert('Неверно')
+    }
+</script>
+
+<div>
+    <p>Lorem Ipsum Dolor Umet</p>
+    <p>Lorem Ipsum Dolor Umet</p>
+    <p id="paragraf">Lorem Ipsum Dolor Umet</p>
+    <p>Lorem Ipsum Dolor Umet</p>
+    <p>Lorem Ipsum Dolor Umet</p>
+</div>
+<script>
+    let parag = document.getElementById('paragraf');
+    parag.style.color = 'red';
+    parag.style.fontSize = '20px';
+</script>
+
+<form class="form_box">
+    <div class="window">
+        <input class="name" type="text" name="name" alt="name" placeholder="Имя">
+        <input type="tel" name="phone" alt="phone" placeholder="+380xxxxxxxxx">
+        <button class="btn" name="button">Отправить</button>
+    </div>
+</form>
+<script>
+    let name = document.querySelector('.name');
+    name.placeholder = 'Eugene';
+</script>
+</body>
+</html>

@@ -303,6 +303,7 @@ img{
 }
 .creative-service{
     padding: 100px 0;
+    overflow: hidden;
 }
 .creative-service h2{
     font-size: 36px;

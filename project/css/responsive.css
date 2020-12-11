@@ -642,3 +642,44 @@
         font-size: 22px;
     }
 }
+@media(max-width: 450px){
+    .page {
+        padding-bottom: 178px;
+    }
+    #slider-banner .item h2 {
+        font-size: 35px;
+    }
+    #slider-banner .item .text-slider {
+        font-size: 70px;
+        margin-top: -17px;
+    }
+    .block2 {
+        padding-top: 260px;
+    }
+    .icon-block2 {
+        width: 35px;
+    }
+    .creative-portfolio .nav-tabs .nav-link {
+        padding: 5px 12px;
+        font-size: 9px;
+    }
+    .service-text{
+        font-size: 12px;
+    }
+    .service-text-box {
+        font-size: 12px;
+        width: 245px;
+    }
+    .our-team-text{
+        max-width: 280px;
+    }
+    .footer-text{
+        width: 65%;
+    }
+    .footer-icons{
+        width: 46%;
+    }
+    .grey-box-email{
+        margin-bottom: 10px;
+    }
+}

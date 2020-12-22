@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ассоциативные массивы</title>
+</head>
+<script>
+    let arr = new Map([
+        ['name', 'Vasiliy'],
+        ['surname', 'Ivanov'],
+        ['age', '30']
+    ]);
+    arr.set(['car', 'Audi']);
+    arr.set(['child', 'true']);
+    console.log(arr.size);
+    arr.delete('age');
+    arr.delete('child');
+    arr.clear();
+</script>
+<body>
+
+</body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Slider</title>
+</head>
+<style>
+    img{
+        max-width: 100%;
+        width: auto;
+        height: auto;
+    }
+    .mainacad-slider{
+        width: 800px;
+        margin: 0 auto;
+        text-align: center;
+        display: flex;
+        position: relative;
+    }
+    #click-prev, #click-next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        margin-top: -22px;
+        padding: 16px;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+    }
+    #click-next{
+        right: 0;
+        border-radius: 3px 0 0 3px;
+    }
+
+</style>
+<body>
+<div class="mainacad-slider">
+    <button id="click-prev">Prev</button>
+    <img id="slider-img" src="">
+    <button id="click-next">Next</button>
+    <<!--a id="click-prev">&#10094</a>
+    <a id="click-next">&#10095</a>-->
+</div>
+</body>
+<script>
+    let prevBtn = document.getElementById('click-prev');
+    let nextBtn = document.getElementById('click-next');
+    let slideImg = document.getElementById('slider-img');
+
+    prevBtn.addEventListener('click', onPrevBtnClick);
+    nextBtn.addEventListener('click', onNextBtnClick);
+
+    let imgUrl = [];
+    imgUrl.push('https://rating-avto.ru/wp-content/uploads/2019/04/Koenigsegg-Agera-RS-1.jpg');
+    imgUrl.push('https://rating-avto.ru/wp-content/uploads/2019/04/Bugatti-Veyron-Super-Sport.jpg');
+    imgUrl.push('https://rating-avto.ru/wp-content/uploads/2019/04/Hennessey-Venom-GT-1.jpg');
+    imgUrl.push('https://rating-avto.ru/wp-content/uploads/2019/04/SSC-Ultimate-Aero-TT-1.jpg');
+
+    let currentIndex = 0;
+    slideImg.src = imgUrl[currentIndex];
+    prevBtn.disabled = true;
+
+    function onPrevBtnClick() {
+        currentIndex--;
+        nextBtn.disabled = false;
+        slideImg.src = imgUrl[currentIndex];
+        if(currentIndex === 0){
+            prevBtn.disabled = true;
+        }
+    }
+
+    function onNextBtnClick() {
+        currentIndex++;
+        prevBtn.disabled = false;
+        slideImg.src = imgUrl[currentIndex];
+        if(currentIndex === (imgUrl.length - 1)){
+            nextBtn.disabled = true;
+        }
+    }
+</script>
+</html>

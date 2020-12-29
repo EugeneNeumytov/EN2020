@@ -83,29 +83,9 @@
     slideImg.src = imgUrl[currentIndex];
     prevBtn.disabled = true;
 
-    function showImage(id) {
-        switch (id) {
-            case 'slider-icon1': {
-                slideImg.src = imgUrl[0];
-                currentIndex = 0;
-            }
-            break;
-            case 'slider-icon2': {
-                slideImg.src = imgUrl[1];
-                currentIndex = 1;
-            }
-            break;
-            case 'slider-icon3': {
-                slideImg.src = imgUrl[2];
-                currentIndex = 2;
-            }
-            break;
-            case 'slider-icon4': {
-                slideImg.src = imgUrl[3];
-                currentIndex = 3;
-            }
-            break;
-        }
+    function showImage(id, i) {
+        slideImg.src = document.getElementById(id).src;
+        currentIndex = i;
     }
 
     function onPrevBtnClick() {
@@ -127,7 +107,7 @@
     }
 
     for (let i = 0; i < sliderIcons.length; i++){
-        sliderIcons[i].addEventListener('click', function () {showImage(sliderIcons[i].id);});
+        sliderIcons[i].addEventListener('click', function () {showImage(sliderIcons[i].id, i);});
     }
 </script>
 </html>

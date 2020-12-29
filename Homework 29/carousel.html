@@ -17,32 +17,46 @@
         display: flex;
         position: relative;
     }
-    #click-prev, #click-next {
+    .click-prev, .click-next {
+        background: rgba(0,0,0,0);
         cursor: pointer;
         position: absolute;
         top: 50%;
         width: auto;
         margin-top: -22px;
-        padding: 16px;
         color: white;
         font-weight: bold;
         font-size: 18px;
         transition: 0.6s ease;
-        border-radius: 0 3px 3px 0;
+        outline: none;
+        border: none;
+
     }
-    #click-next{
+    .click-next{
         right: 0;
-        border-radius: 3px 0 0 3px;
+    }
+    .slider-icons{
+        width: 500px;
+        margin: 20px auto;
+        display: flex;
+        justify-content: space-around;
+    }
+    .slider-img{
+        width: 100px;
     }
 
 </style>
 <body>
 <div class="mainacad-slider">
-    <button id="click-prev">Prev</button>
     <img id="slider-img" src="">
-    <button id="click-next">Next</button>
-    <<!--a id="click-prev">&#10094</a>
-    <a id="click-next">&#10095</a>-->
+    <button class="click-prev" id="click-prev">&#10094</button>
+    <button class="click-next" id="click-next">&#10095</button>
+</div>
+<div class="slider-icons">
+    <div class="slider-img"><img class="slider-icon" id="slider-icon1" src=""></div>
+    <div class="slider-img"><img class="slider-icon" id="slider-icon2" src=""></div>
+    <div class="slider-img"><img class="slider-icon" id="slider-icon3" src=""></div>
+    <div class="slider-img"><img class="slider-icon" id="slider-icon4" src=""></div>
 </div>
 </body>
 <script>
@@ -59,9 +73,40 @@
     imgUrl.push('https://rating-avto.ru/wp-content/uploads/2019/04/Hennessey-Venom-GT-1.jpg');
     imgUrl.push('https://rating-avto.ru/wp-content/uploads/2019/04/SSC-Ultimate-Aero-TT-1.jpg');
 
+    let sliderIcons = document.querySelectorAll('.slider-icon');
+    for(let i = 0; i < sliderIcons.length; i++){
+        console.log(sliderIcons[i]);
+        sliderIcons[i].src = imgUrl[i];
+    }
+
     let currentIndex = 0;
     slideImg.src = imgUrl[currentIndex];
     prevBtn.disabled = true;
+
+    function showImage(id) {
+        switch (id) {
+            case 'slider-icon1': {
+                slideImg.src = imgUrl[0];
+                currentIndex = 0;
+            }
+            break;
+            case 'slider-icon2': {
+                slideImg.src = imgUrl[1];
+                currentIndex = 1;
+            }
+            break;
+            case 'slider-icon3': {
+                slideImg.src = imgUrl[2];
+                currentIndex = 2;
+            }
+            break;
+            case 'slider-icon4': {
+                slideImg.src = imgUrl[3];
+                currentIndex = 3;
+            }
+            break;
+        }
+    }
 
     function onPrevBtnClick() {
         currentIndex--;
@@ -79,6 +124,10 @@
         if(currentIndex === (imgUrl.length - 1)){
             nextBtn.disabled = true;
         }
+    }
+
+    for (let i = 0; i < sliderIcons.length; i++){
+        sliderIcons[i].addEventListener('click', function () {showImage(sliderIcons[i].id);});
     }
 </script>
 </html>

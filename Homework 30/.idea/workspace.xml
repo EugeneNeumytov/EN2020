@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fd885d00-acd1-40f5-949a-736284974309" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Homework 26/.idea/Homework 26.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework 27/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework 27/.idea/Homework 27.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework 27/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework 27/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework 27/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/Homework 30.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/bootstrap-grid.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/bootstrap-grid.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/bootstrap-reboot.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/AsapFont/asap_family.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/AsapFont/fonts/asap_bold.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/AsapFont/fonts/asap_bold.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/AsapFont/fonts/asap_bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/AsapFont/fonts/asap_bold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/AsapFont/fonts/asap_bold.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/AsapFont/fonts/asap_bold_italic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/AsapFont/fonts/asap_bold_italic.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/AsapFont/fonts/asap_bold_italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/AsapFont/fonts/asap_bold_italic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/AsapFont/fonts/asap_bold_italic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/AsapFont/fonts/asap_family.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/AsapFont/fonts/asap_italic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/AsapFont/fonts/asap_italic.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/AsapFont/fonts/asap_italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/AsapFont/fonts/asap_italic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/AsapFont/fonts/asap_italic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/AsapFont/fonts/asap_medium.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/AsapFont/fonts/asap_medium.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/AsapFont/fonts/asap_medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/AsapFont/fonts/asap_medium.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/AsapFont/fonts/asap_medium.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/AsapFont/fonts/asap_medium_italic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/AsapFont/fonts/asap_medium_italic.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/AsapFont/fonts/asap_medium_italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/AsapFont/fonts/asap_medium_italic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/AsapFont/fonts/asap_medium_italic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/AsapFont/fonts/asap_regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/AsapFont/fonts/asap_regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/AsapFont/fonts/asap_regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/AsapFont/fonts/asap_regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/AsapFont/fonts/asap_regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/AsapFont/fonts/asap_semibold.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/AsapFont/fonts/asap_semibold.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/AsapFont/fonts/asap_semibold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/AsapFont/fonts/asap_semibold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/AsapFont/fonts/asap_semibold.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/AsapFont/fonts/asap_semibold_italic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/AsapFont/fonts/asap_semibold_italic.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/AsapFont/fonts/asap_semibold_italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/AsapFont/fonts/asap_semibold_italic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/AsapFont/fonts/asap_semibold_italic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/back.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/bulb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/debug.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/dee.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/dee1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/dexter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/dexter1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/finger.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/girl.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/man.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/mand.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/mandark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/mandark1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/phone.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/spaceship.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/jquery-3.0.0.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework 29/carousel.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework 29/carousel.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1mWLZ48be3oxVVIFsJeFVFzvPN6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fd885d00-acd1-40f5-949a-736284974309" name="Default Changelist" comment="" />
+      <created>1609604452063</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1609604452063</updated>
+      <workItem from="1609604455279" duration="3010000" />
+      <workItem from="1609610412530" duration="6974000" />
+      <workItem from="1609632781806" duration="5000" />
+      <workItem from="1609667575346" duration="28964000" />
+      <workItem from="1609777648882" duration="15808000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

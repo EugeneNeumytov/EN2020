@@ -2,6 +2,9 @@
     .header .header-button {
         margin-bottom: 90px;
     }
+    .grey-block-img-box{
+        padding-top: 70%;
+    }
 }
 
 @media(max-width: 991px){

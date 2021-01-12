@@ -61,10 +61,12 @@
         } catch (e) {
           nameMessage.innerHTML = e;
         }
-        try {
-            if(surname == "") throw 'Введите фамилию';
-        } catch (e) {
-            surnameMessage.innerHTML = e;
+        finally {
+            try {
+                if(surname == "") throw 'Введите фамилию';
+            } catch (e) {
+                surnameMessage.innerHTML = e;
+            }
         }
     }
 

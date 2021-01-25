@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    .button{
+        width: 300px;
+        height: 100px;
+        margin: 13% auto;
+        border: 1px solid #000;
+        border-radius: 20px;
+    }
+    #btn{
+        width: 100%;
+        height: 100%;
+        border: none;
+        border-radius: 20px;
+        font-size: 30px;
+        outline: none;
+    }
+</style>
+<body>
+<div class="button">
+    <button id="btn">Click me</button>
+</div>
+
+<script>
+    let clickCount = 0;
+    function changeColor() {
+        clickCount++;
+        if (clickCount == 1){
+            btn.style.backgroundColor = 'rgb(255, 0, 0)';
+            btn.style.color = 'rgb(255, 255, 0)';
+        }else if (clickCount == 2){
+            btn.style.backgroundColor = 'rgb(0, 255, 0)';
+            btn.style.color = 'rgb(0, 255, 255)';
+        }else if (clickCount == 3){
+            btn.style.backgroundColor = 'rgb(0, 0, 255)';
+            btn.style.color = 'rgb(255, 0, 255)';
+        }else{
+            btn.style.backgroundColor = 'rgb(255, 255, 255)';
+            btn.style.color = 'rgb(0, 0, 0)';
+            clickCount = 0;
+        }
+    }
+
+    btn.onclick = changeColor;
+</script>
+</body>
+</html>

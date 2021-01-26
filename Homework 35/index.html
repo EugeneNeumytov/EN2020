@@ -25,6 +25,7 @@
         height: 100px;
         text-align: center;
         font-size: 24px;
+        position: relative;
     }
     .modal {
         display: none;
@@ -53,19 +54,71 @@
         font-weight: bold;
         cursor: pointer;
     }
+    .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        background-color: rgba(0, 0, 0, .6);
+        overflow: hidden;
+        width: 100%;
+        height: 100%;
+        transition: .5s ease;
+        display: none;
+    }
 </style>
 <body>
 <div id="imgContainer">
-    <div class="image"><img src="img/photo_1.jpg" alt="Buick Super" title="Buick Super"></div>
-    <div class="image"><img src="img/niva.jpg" alt="Niva" title="Нива ВАЗ-2121"></div>
-    <div class="image"><img src="img/mercury.jpg" alt="Mercury" title="Mercury"></div>
-    <div class="image"><img src="img/volga.jpg" alt="Volga" title="Волга ГАЗ-21"></div>
-    <div class="image"><img src="img/limousene.jpg" alt="BMW" title="BMW Limousene"></div>
-    <div class="image"><img src="img/morgan.jpg" alt="Morgan" title="Morgan"></div>
-    <div class="image"><img src="img/thunderbird.jpg" alt="Thunderbird" title="Thunderbird"></div>
-    <div class="image"><img src="img/mersedes.jpg" alt="Mersedes" title="Mersedes-Benz"></div>
-    <div class="image"><img src="img/zhiguli.jpg" alt="Zhiguli" title="Жигули ВАЗ-21011"></div>
-    <div class="image"><img src="img/cadillac.jpg" alt="Cadillac" title="Cadillac"></div>
+    <div class="image"><img src="img/photo_1.jpg" alt="Buick Super" title="Buick Super">
+        <div class="overlay">
+            <div class="text">Hello World</div>
+        </div>
+    </div>
+    <div class="image"><img src="img/niva.jpg" alt="Niva" title="Нива ВАЗ-2121">
+        <div class="overlay">
+            <div class="text"></div>
+        </div>
+    </div>
+    <div class="image"><img src="img/mercury.jpg" alt="Mercury" title="Mercury">
+        <div class="overlay">
+            <div class="text"></div>
+        </div>
+    </div>
+    <div class="image"><img src="img/volga.jpg" alt="Volga" title="Волга ГАЗ-21">
+        <div class="overlay">
+            <div class="text"></div>
+        </div>
+    </div>
+    <div class="image"><img src="img/limousene.jpg" alt="BMW" title="BMW Limousene">
+        <div class="overlay">
+            <div class="text"></div>
+        </div>
+    </div>
+    <div class="image"><img src="img/morgan.jpg" alt="Morgan" title="Morgan">
+        <div class="overlay">
+            <div class="text"></div>
+        </div>
+    </div>
+    <div class="image"><img src="img/thunderbird.jpg" alt="Thunderbird" title="Thunderbird">
+        <div class="overlay">
+            <div class="text"></div>
+        </div>
+    </div>
+    <div class="image"><img src="img/mersedes.jpg" alt="Mersedes" title="Mersedes-Benz">
+        <div class="overlay">
+            <div class="text"></div>
+        </div>
+    </div>
+    <div class="image"><img src="img/zhiguli.jpg" alt="Zhiguli" title="Жигули ВАЗ-21011">
+        <div class="overlay">
+            <div class="text"></div>
+        </div>
+    </div>
+    <div class="image"><img src="img/cadillac.jpg" alt="Cadillac" title="Cadillac">
+        <div class="overlay">
+            <div class="text"></div>
+        </div>
+    </div>
 </div>
 <div id="myModal" class="modal">
     <span id="close">&times;</span>
@@ -77,25 +130,22 @@
     let modal = document.getElementById('myModal');
     let span = document.getElementById('close');
     let modalImg = document.getElementById('modalImg');
+
     imgContainer.addEventListener('mouseover', showTitle);
     imgContainer.addEventListener('click', showModal);
 
-    /*function showImg(target) {
-        console.log(target);
-        target.style.display = 'inherit';
-    }*/
 
     function showTitle(event) {
         let target = event.target;
         if (target.tagName == 'IMG'){
-
+            console.log(target.parentElement.children[1]);
+            target.parentElement.children[1].style.display = 'block';
         }
     }
     function showModal(event) {
         let target = event.target;
         if (target.tagName == 'IMG'){
             modal.style.display = 'block';
-            console.log(target.src);
             modalImg.src = target.src;
         }
     }

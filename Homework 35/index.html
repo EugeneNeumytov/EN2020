@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    img{
+        max-width: 100%;
+        width: auto;
+        height: auto;
+    }
+    #imgContainer{
+        width: 90%;
+        margin: 13% auto;
+        display: flex;
+        justify-content: space-around;
+    }
+    .image img{
+        width: 150px;
+        height: 100px;
+    }
+    .image{
+        width: 150px;
+        height: 100px;
+        text-align: center;
+        font-size: 24px;
+    }
+    .modal {
+        display: none;
+        position: fixed;
+        z-index: 1;
+        padding-top: 100px;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color: rgb(0,0,0);
+        background-color: rgba(0,0,0,0.9);
+    }
+
+    .modal-content {
+        margin: auto;
+        display: block;
+        width: 80%;
+        max-width: 700px;
+    }
+    #close{
+        color: red;
+        float: right;
+        font-size: 60px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+</style>
+<body>
+<div id="imgContainer">
+    <div class="image"><img src="img/photo_1.jpg" alt="Buick Super" title="Buick Super"></div>
+    <div class="image"><img src="img/niva.jpg" alt="Niva" title="Нива ВАЗ-2121"></div>
+    <div class="image"><img src="img/mercury.jpg" alt="Mercury" title="Mercury"></div>
+    <div class="image"><img src="img/volga.jpg" alt="Volga" title="Волга ГАЗ-21"></div>
+    <div class="image"><img src="img/limousene.jpg" alt="BMW" title="BMW Limousene"></div>
+    <div class="image"><img src="img/morgan.jpg" alt="Morgan" title="Morgan"></div>
+    <div class="image"><img src="img/thunderbird.jpg" alt="Thunderbird" title="Thunderbird"></div>
+    <div class="image"><img src="img/mersedes.jpg" alt="Mersedes" title="Mersedes-Benz"></div>
+    <div class="image"><img src="img/zhiguli.jpg" alt="Zhiguli" title="Жигули ВАЗ-21011"></div>
+    <div class="image"><img src="img/cadillac.jpg" alt="Cadillac" title="Cadillac"></div>
+</div>
+<div id="myModal" class="modal">
+    <span id="close">&times;</span>
+    <img class="modal-content" id="modalImg">
+</div>
+
+<script>
+    let imgContainer = document.getElementById('imgContainer');
+    let modal = document.getElementById('myModal');
+    let span = document.getElementById('close');
+    let modalImg = document.getElementById('modalImg');
+    imgContainer.addEventListener('mouseover', showTitle);
+    imgContainer.addEventListener('click', showModal);
+
+    /*function showImg(target) {
+        console.log(target);
+        target.style.display = 'inherit';
+    }*/
+
+    function showTitle(event) {
+        let target = event.target;
+        if (target.tagName == 'IMG'){
+
+        }
+    }
+    function showModal(event) {
+        let target = event.target;
+        if (target.tagName == 'IMG'){
+            modal.style.display = 'block';
+            console.log(target.src);
+            modalImg.src = target.src;
+        }
+    }
+    span.onclick = function () {
+        modal.style.display = 'none';
+    }
+
+
+</script>
+</body>
+</html>

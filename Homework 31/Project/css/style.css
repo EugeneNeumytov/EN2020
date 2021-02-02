@@ -265,7 +265,9 @@ ul.translation li a {
     width: 11px;
     height: 11px;
     border-radius: 50%;
+    margin: 0 auto;
     margin-top: 11px;
+    cursor: pointer;
 }
 #notebook .dot-active,
 #notebook .dot:hover{
@@ -281,8 +283,9 @@ ul.translation li a {
     font-style: italic;
     color: #101010;
     margin-left: 30px;
+    display: none;
 }
-.small-text{
+.first-block-text .small-text{
     color: #737373;
     font-size: 1.142rem;
 }
@@ -347,7 +350,7 @@ ul.translation li a {
     margin-right: 70px;
 }
 .donate-btn{
-    padding: 20px 30px;
+    padding: 20px 50px;
     border-radius: 50px;
     background: linear-gradient(-45deg, #5e7bea, #37b8e1);
     box-shadow: 0 15px 30px #58acaf;
@@ -355,22 +358,91 @@ ul.translation li a {
 .third-block-links i{
     margin-right: 10px;
 }
-.footer-block{
-    width: 80%;
-    border-top: 3px solid rgba(185, 185, 185, .5);
-    border-right: 3px solid rgba(185, 185, 185, .5);
-    padding-top: 20px;
-}
-
-
-
-
-
-
-
-
 .footer{
+    background: linear-gradient(-7deg, #fff, #efefef 52%, #fff 53%);
     padding: 20px 0;
     flex: 0 0 auto;
 }
+.footer-block{
+    width: 80%;
+    border-top: 2px solid rgba(185, 185, 185, .5);
+    border-right: 2px solid rgba(185, 185, 185, .5);
+    padding-top: 20px;
+    padding-right: 20px;
+}
+.footer-img{
+    margin-bottom: 175px;
+}
+.footer-email{
+    border-left: 2px solid rgba(185, 185, 185, .5);
+    margin-left: 200px;
+    padding-left: 20px;
+}
+.footer-text{
+    position: relative;
+    color: #5c5c5c;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+.footer-line{
+    position: absolute;
+    top: 10%;
+    right: 31%;
+    height: 305px;
+    border-left: 2px solid rgba(185, 185, 185, .5);
+}
+.footer-email .email {
+    margin-bottom: 20px;
+}
+.footer-email .email p{
+    margin-bottom: 4px;
+}
+.footer-email .site-link p{
+    margin-bottom: 0;
+}
+.footer-email a {
+    color: #5c5c5c;
+    font-weight: bold;
+    text-decoration: none;
+}
+.footer-lists h4 {
+    font-size: 1.285rem;
+    font-weight: bold;
+}
+.footer-lists {
+    width: 38%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.footer-list ul {
+    direction: rtl;
+    list-style: square inside;
+    margin-bottom: 0;
+}
+ul.social {
+    list-style: none;
+}
+
+ul.social li {
+    display: inline;
+    font-size: 0.86rem;
+}
+
+ul.social li+li:before {
+    padding: 6px;
+    color: #959595;
+    content: "/\00a0";
+}
+
+ul.social li a {
+    color: #959595;
+    text-decoration: none;
+}
+.footer-copyright{
+    font-size: 0.86rem;
+    color: #5c5c5c;
+}
+
 

@@ -1,0 +1,19 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 960px;
+    margin: 0 auto;
+    color: white;
+    margin-bottom: 140px;
+}
+.logo {
+    text-transform: uppercase;
+}
+.nav ul {
+    list-style: none;
+}
+.nav ul li {
+    display: inline-block;
+    text-transform: uppercase;
+    margin-left: 10px;
+}

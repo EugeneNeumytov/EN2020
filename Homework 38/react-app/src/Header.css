@@ -1,0 +1,19 @@
+.header {
+    background: url("./img/image.png") no-repeat;
+    background-size: cover;
+    padding: 60px 0 200px 0;
+}
+.title-box {
+    width: 615px;
+    margin: 0 auto;
+    color: #fff;
+    text-align: center;
+    font-family: 'Times New Roman', sans-serif;
+}
+.title {
+    border-bottom: 1px solid #fff;
+    margin-bottom: 20px;
+}
+h1{
+    font-size: 52px;
+}

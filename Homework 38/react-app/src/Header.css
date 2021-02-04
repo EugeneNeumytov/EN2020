@@ -2,6 +2,7 @@
     background: url("./img/image.png") no-repeat;
     background-size: cover;
     padding: 60px 0 200px 0;
+    position: relative;
 }
 .title-box {
     width: 615px;

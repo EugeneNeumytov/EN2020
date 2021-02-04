@@ -1,5 +1,6 @@
 import './Header.css'
 import Navbar from "./Navbar";
+import Button from "./Button";
 
 const Header = () => {
     return (
@@ -13,6 +14,7 @@ const Header = () => {
                     Frontend Design | UI/UX Design
                 </div>
             </div>
+            <Button />
         </div>
     )
 }

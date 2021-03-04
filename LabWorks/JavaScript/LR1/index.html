@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lab Work 1</title>
+</head>
+
+<style>
+    .box{
+        display: flex;
+        justify-content: space-around;
+    }
+</style>
+<body>
+<div class="box">
+    <div>
+        <h2>Links</h2>
+        <a href="#">Link1</a>
+        <a href="#">Link2</a>
+        <a href="#">Link3</a>
+        <a href="#">Link4</a>
+    </div>
+    <div>
+        <h2>Spans</h2>
+        <span>Span1</span>
+        <span>Span2</span>
+        <span>Span3</span>
+        <span>Span4</span>
+    </div>
+</div>
+
+
+<script>
+    for (let i = 0; i < document.links.length; i++)
+    {
+        document.write("<b>Link number " + i + " has these properties:</b><br/>");
+
+        document.write("<i>nodeName is</i> " + document.links[i].nodeName + "<br/>");
+
+        document.write("<i>nodeType is</i> " + document.links[i].nodeType + "<br/>");
+
+        document.write("<i>parentNode.nodeValue is</i> "
+            + document.links[i].parentNode.nodeValue + "<br/>");
+
+        document.write("<i>firstChild is</i> " + document.links[i].firstChild  + "<br/>");
+
+        document.write("<i>firstChild.nodeValue is</i> "
+            + document.links[i].firstChild.nodeValue + "<br/>");
+
+        document.write("<i>href is</i> " + document.links[i].href  + "<br/>");
+    }
+
+    let spans = document.getElementsByTagName("span");
+
+    for (let i = 0; i < spans.length; i++)
+    {
+        document.write("<b>Tag number " + i + " has these properties:</b><br/>");
+
+        document.write("<i>nodeName is</i> " + spans[i].nodeName + "<br/>");
+
+        document.write("<i>nodeValue is</i> " + spans[i].nodeValue + "<br/>");
+
+        document.write("<i>nodeType is</i> " + spans[i].nodeType + "<br/>");
+
+        document.write("<i>id is</i> " + spans[i].id + "<br/>");
+
+        document.write("<i>name is</i> " + spans[i].name + "<br/>");
+
+        document.write("<i>parentNode is</i> " + spans[i].parentNode + "<br/>");
+
+        document.write("<i>parentNode.nodeValue is</i> " + spans[i].parentNode.nodeValue + "<br/>");
+
+        document.write("<i>firstChild is</i> " + spans[i].firstChild + "<br/>");
+
+        document.write("<i>firstChild.nodeValue is</i> " + spans[i].firstChild.nodeValue + "<br/>");
+    }
+</script>
+</body>
+</html>

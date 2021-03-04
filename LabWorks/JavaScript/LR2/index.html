@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lab Work 2</title>
+</head>
+<style>
+    #quest-field{
+        display: none;
+    }
+    #answer{
+        margin-bottom: 20px;
+    }
+</style>
+<body>
+<div>
+    <h1>Test</h1>
+    <button id="begin-btn">Begin Test</button>
+    <div id="quest-field">
+        <h2><span id="number"></span>Question</h2>
+        <div id="question"></div>
+        <div><input id="answer" /></div>
+        <button id="answer-btn">Answer</button>
+    </div>
+</div>
+
+<script>
+
+    let data;
+    let startButton = document.getElementById('begin-btn');
+    let questField = document.getElementById('quest-field');
+    let number = document.getElementById('number');
+    let question = document.getElementById('question');
+    let answer = document.getElementById('answer');
+    let answerButton = document.getElementById('answer-btn');
+
+    readTextFile = (file, callback) => {
+        let rawFile = new XMLHttpRequest();
+        rawFile.overrideMimeType("application/json");
+        rawFile.open("GET", file, true);
+        rawFile.onreadystatechange = function() {
+            if (rawFile.readyState === 4 && rawFile.status == "200") {
+                callback(rawFile.responseText);
+            }
+        }
+        rawFile.send(null);
+    }
+
+    getJsonData = () => {
+        readTextFile("./test.json", function (text) {
+            data = JSON.parse(text);
+            startButton.style.display = 'none';
+
+            showTest(0);
+
+
+
+        });
+    }
+    showTest = (i) => {
+        number.innerHTML = i + 1;
+        question.innerHTML = data[i].question;
+        answer.type = data[i].type;
+        if(data[i].type === 'select') {
+
+        }
+        if (i < data.length - 1){
+            answerButton.addEventListener("click", () => showTest(i + 1));
+        }
+        questField.style.display = 'block';
+    }
+
+
+    startButton.addEventListener("click", getJsonData);
+</script>
+</body>
+</html>
